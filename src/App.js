@@ -1,13 +1,22 @@
 import React from 'react';
-import {MainTitle} from './styles';
+import { Reset } from 'styled-reset'
+import {MainTitle,MainContainer,GlobalStyles,BlurBox,BlurContainer} from './styles';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
+    <Reset />
+    <GlobalStyles/>
+    <MainContainer>
+    <BlurBox>
+      <BlurContainer>
         <MainTitle>
-          Hello World!
+          Hey, I'm Topik!
         </MainTitle>
-    </div>
+      </BlurContainer>
+    </BlurBox>
+    </MainContainer>
+    </React.Fragment>
   );
 }
 
