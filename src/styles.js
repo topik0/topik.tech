@@ -35,6 +35,7 @@ export const BlurBox = styled.div`
     @media ${device.mobile}{
         max-height: 87vh;
         min-height: 70vh;
+        height: 100%;
     }
 `
 export const BlurContainer = styled.div`
@@ -47,6 +48,7 @@ export const BlurContainer = styled.div`
         flex-direction: column;
         padding: 20px;
         text-align: center;
+        height: 100%;
     }
 `
 export const MainTitle = styled.h1`
@@ -77,6 +79,7 @@ export const ButtonsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+
 `
 export const TButton = styled.a`
     width: 160px;
@@ -99,7 +102,8 @@ export const TButton = styled.a`
         color: #333;
     }
     &:active{
-        box-shadow: inset 0px 10px 22px -18px rgba(0, 0, 0, 0.45);
+        box-shadow:
+        height: 100%; inset 0px 10px 22px -18px rgba(0, 0, 0, 0.45);
     }
     @media ${device.mobile}{
         width: 100px;
