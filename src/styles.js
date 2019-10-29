@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import background from "./images/background.jpg";
 import { Row } from "react-flexbox-grid";
 
@@ -19,7 +19,7 @@ const size = {
     laptop: '1024px',
     laptopL: '1440px',
     desktop: '2560px'
-  }
+}
 export const device = {
     mobile: `(max-width: ${size.mobile})`,
     mobileS: `(max-width: ${size.mobileS})`,
@@ -28,7 +28,7 @@ export const device = {
     laptopL: `(min-width: ${size.laptopL})`,
     desktop: `(min-width: ${size.desktop})`,
     desktopL: `(min-width: ${size.desktop})`
-  };
+};
 export const BlurBox = styled.div`
     backdrop-filter: blur(12px);
     width: 100%;

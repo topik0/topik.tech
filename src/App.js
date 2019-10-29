@@ -37,7 +37,7 @@ function App() {
               <Col middle="lg" center="lg" lg={6}>
                 <ButtonsDialpad>
                   <Row center="xs" middle="xs">
-                    {buttons.map(btn => ( 
+                    {buttons.map(btn => (
                       <Col lg={6} xs={6} key={btn}>
                         <TButton>{btn}</TButton>
                       </Col>
