@@ -12,8 +12,6 @@ html {
     }
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,700,800&display=swap');
 `
-
-
 const size = {
     mobile: '750px',
     mobileS: '500px',
