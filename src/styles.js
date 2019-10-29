@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components';
-import background from "./images/background.jpg";
+import background from "./background.jpg";
 import { Row } from "react-flexbox-grid";
 
 export const GlobalStyles = createGlobalStyle`
@@ -44,7 +44,7 @@ export const BlurBox = styled.div`
     @media ${device.mobile}{
         max-height: 87vh;
         min-height: 70vh;
-        height: 100%;
+        height: 100%;#
         width: 375px;
         max-width: 85vw;
     }
