@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import {createGlobalStyle} from 'styled-components';
 import background from "./images/background.jpg";
+import { Row } from "react-flexbox-grid";
+
 export const GlobalStyles = createGlobalStyle`
 html {
         font-size: 16px;
@@ -90,6 +92,7 @@ export const TButton = styled.a`
 export const ButtonsDialpad = styled.div`
   width: 360px;
   margin: auto;
+  max-width: 88.2%;
   @media ${device.mobile}{
         max-width: 100%;
     }
@@ -108,4 +111,10 @@ export const MainContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+`
+export const LeftRow = styled(Row)`
+    max-width: 90%;
+    @media ${device.mobile}{
+        max-width: 85%;
+    }
 `

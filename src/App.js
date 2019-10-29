@@ -9,13 +9,11 @@ import {
   BlurContainer,
   MainBio,
   TButton,
-  ButtonsDialpad
+  ButtonsDialpad,
+  LeftRow
 } from "./styles";
 
 const buttons = ['About', 'Projects', 'Discord', 'Github', 'Email']
-const Rower = {
-  width: '20px'
-}
 function App() {
   return (
     <React.Fragment>
@@ -24,7 +22,7 @@ function App() {
       <MainContainer>
         <BlurBox>
           <BlurContainer>
-            <Row style={{maxWidth: '80%'}} middle="lg" center="xs" start="lg">
+            <LeftRow middle="lg" center="xs" start="lg">
               <Col xs={12} lg={6} center="lg">
                 <Col center="lg" middle="xs">
                   <MainTitle>Hey, I'm Topik!</MainTitle>
@@ -47,7 +45,7 @@ function App() {
                   </Row>
                 </ButtonsDialpad>
               </Col>
-            </Row>
+            </LeftRow>
           </BlurContainer>
         </BlurBox>
       </MainContainer>
