@@ -9,9 +9,15 @@ html {
             font-size: 13px;
         }
     }
+    a:link {
+        color: #ffffff;
+        text-decoration: none;
+}
+    a:visited {
+        color: #ffffff;
+}
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,700,800&display=swap');
 `
-
 export const MainContainer = styled.div`
     font-family: Assistant, sans-serif;
     padding: 0;
@@ -26,4 +32,8 @@ export const MainContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+`
+export const MainTitle = styled.h1`
+    font-weight: 800;
+    font-size: 3.4rem;
 `

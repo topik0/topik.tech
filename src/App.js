@@ -9,12 +9,14 @@ import Home from './views/Home/index.js';
 import About from './views/About/index.js';
 
 const Routes = () => (
-    <Switch>
+   <React.Fragment>
       <Reset />
       <GlobalStyles />
-      <Route component={Home} path="/" />
-      <Route component={About} path="/about" />
-    </Switch>
+         <Switch>
+            <Route component={Home} path="/" />
+            <Route component={About} path="/about" />
+         </Switch>
+    </React.Fragment>
 )
 
 export default Routes;

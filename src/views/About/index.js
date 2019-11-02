@@ -1,18 +1,15 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
+import { MainContainer } from "../../styles.js";
 
-// import {
-//   MainTitle,
-//   BlurBox,
-//   BlurContainer,
-//   MainBio,
-//   TButton,
-//   ButtonsDialpad,
-//   LeftRow
-// } from "./styles";
+import {
+    
+} from "./styles";
 
 const About = () => (
-    <div></div>
+    <MainContainer>
+        
+    </MainContainer>
 )
 
 export default About
