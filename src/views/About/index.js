@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-flexbox-grid';
-import { MainContainer } from "../../styles.js";
+import { MainContainer, MainTitle } from "../../styles.js";
 
 import {
     
@@ -8,7 +8,11 @@ import {
 
 const About = () => (
     <MainContainer>
-        
+
+        <MainTitle>
+            
+        </MainTitle>
+
     </MainContainer>
 )
 

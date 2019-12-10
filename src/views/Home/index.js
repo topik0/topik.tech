@@ -28,7 +28,7 @@ const Home = () => (
               <MainBio>
                 I'm a front-end web developer from Chicago with a strong
                 passion for technology and code.  I have serveral years of experience with making websites for projects and clients.
-                  </MainBio>
+                </MainBio>
             </Col>
           </Col>
           <Col middle="lg" center="lg" lg={6}>

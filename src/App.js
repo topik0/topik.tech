@@ -13,8 +13,8 @@ const Routes = () => (
       <Reset />
       <GlobalStyles />
          <Switch>
-            <Route component={Home} path="/" />
-            <Route component={About} path="/about" />
+            <Route exact component={Home} path="/" />
+            <Route exact component={About} path="/about"/>
          </Switch>
     </React.Fragment>
 )
