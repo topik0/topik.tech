@@ -33,6 +33,7 @@ export const MainTitle = styled.h1`
 export const MainBio = styled.p`
     font-size: 1.55rem;
     margin-top: 13px;
+    text-shadow: 0px 0px 2px black;
 `
 export const ButtonsDialpad = styled.div`
   width: 360px;

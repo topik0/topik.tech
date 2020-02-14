@@ -37,4 +37,5 @@ export const MainContainer = styled.div`
 export const MainTitle = styled.h1`
     font-weight: 800;
     font-size: 3.4rem;
+    text-shadow: 0px 0px 2px black;
 `

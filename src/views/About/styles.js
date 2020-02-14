@@ -54,12 +54,14 @@ export const MainBio = styled.h2`
   font-size: 1.3rem;
   width: 85%;
   margin: 12px;
+  text-shadow: 0px 0px 2px black;
 `
 export const SkillsBio = styled.h2`
   font-size: 1.3rem;
   width: 85%;
   margin: 12px;
   margin-bottom: 20px;
+  text-shadow: 0px 0px 2px black;
 `
 export const DividerLine = styled.div`
   width: 67%;
@@ -92,9 +94,11 @@ export const ProjectTitle = styled.p`
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 5px;
+  text-shadow: 0px 0px 2px black;
 `
 export const ProjectDescription = styled.p`
   font-size: 18px;
+  text-shadow: 0px 0px 2px black;
 `
 export const ProjectImage = styled.img`
   border-radius: 25px;
