@@ -5,8 +5,8 @@ import { Switch, Route } from "react-router-dom";
 import {
   GlobalStyles
 } from "./styles";
-import Home from './views/Home/index.js';
-import About from './views/About/index.js';
+import Home from './views/Home/index.jsx';
+import About from './views/About/index.jsx';
 
 const Routes = () => (
    <React.Fragment>

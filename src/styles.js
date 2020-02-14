@@ -32,6 +32,7 @@ export const MainContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 `
 export const MainTitle = styled.h1`
     font-weight: 800;
