@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/topik
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://topik.tech
+  * I am topik (https://keybase.io/topik) on keybase.
+  * I have a public key ASAPdibeuC7tPVVh-Om_Msr3xqFYaZO6nL8qv28KLEdYqwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200f7626deb82eed3d5561f8e9bf32caf7c6a1586993ba9cbf2abf6f0a2c4758ab0a",
+      "host": "keybase.io",
+      "kid": "01200f7626deb82eed3d5561f8e9bf32caf7c6a1586993ba9cbf2abf6f0a2c4758ab0a",
+      "uid": "2d5340ef0c8441f5900f8abecf7dc619",
+      "username": "topik"
+    },
+    "merkle_root": {
+      "ctime": 1583127013,
+      "hash": "1debe9cdba1e2ac0b1a23b0823a9512c0afe7ca42a6380a859059d1d219f5b1bd022a62b763f9a32e79fb9b151d33d5c1acfb43136676bee727b7ba6b1d977a7",
+      "hash_meta": "536b602dab226eb36dd18a15e17e0966c4208c5b1bdd03ef5f77d22e447c53f3",
+      "seqno": 14890552
+    },
+    "service": {
+      "entropy": "mvqNu+0ySXarR5t45O96huIp",
+      "hostname": "topik.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.1"
+  },
+  "ctime": 1583127032,
+  "expire_in": 504576000,
+  "prev": "968ada0b7c93a929cef0b3f69c140e9c0b0bdb2719ea6c6a9f24778a81a2ff0a",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgD3Ym3rgu7T1VYfjpvzLK98ahWGmTupy/Kr9vCixHWKsKp3BheWxvYWTESpcCBsQgloraC3yTqSnO8LP2nBQOnAsL2ycZ6mxqnyR3ioGi/wrEIOd3d3l1SosyEuobxvFjDLtCUoHP9RWX0li7Ixw4ddF2AgHCo3NpZ8RAvlkV8sCnkB8UdszcWQpRrTGX6V6Nd7TQo+DdZPgFZ8LaZGJwh6qMyLcb7k4XRkLkHSLrPlSXuT1adGJ8XZTlAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKUBQg17ZyqtPv14+SL8JHAEToWipVGZOdcmcdpNj1Mfo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/topik
+
+==================================================================
