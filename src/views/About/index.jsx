@@ -3,6 +3,7 @@ import { MainTitle } from "../../styles.js";
 import projectImage from "../../black.jpg";
 import amiImage from "../../ami.jpg"
 import githubImage from "../../github.png"
+import appaysImage from "../../appays.jpg"
 import {
   AboutBlurBox,
   MainContainerAbout,
@@ -45,7 +46,7 @@ const About = () => (
         </ProjectTextContainer>
       </ProjectBox>
       <ProjectBox>  
-        <ProjectImage src={projectImage} />
+        <ProjectImage src={appaysImage} />
         <ProjectTextContainer>
           <ProjectTitle>Appays</ProjectTitle>
           <ProjectDescription>
