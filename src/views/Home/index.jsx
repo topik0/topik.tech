@@ -11,7 +11,7 @@ import {
   LeftRow
 } from "./styles";
 
-const buttons = [{ label: 'About', url: '/about' }, { label: 'Discord', url: 'https://discord.gg/TMfBwg', external: true }, { label: 'Github', url: 'https://www.github.com/topik0', external: true }, { label: 'Email', url: 'mailto:topik@topik.tech', external: true }, { label: 'Dev.to', url: 'https://dev.to/topik0', external: true }];
+const buttons = [{ label: 'About', url: '/about' }, { label: 'Discord', url: 'https://discord.gg/Amv9hj', external: true }, { label: 'Github', url: 'https://www.github.com/topik0', external: true }, { label: 'Email', url: 'mailto:topik@topik.tech', external: true }, { label: 'Dev.to', url: 'https://dev.to/topik0', external: true }];
 const Home = () => (
   <MainContainer>
     <Helmet>
