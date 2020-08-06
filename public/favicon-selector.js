@@ -1,22 +1,24 @@
-function applyIcon (type) {
-    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'shortcut icon';
-    if (type === "dark") {
-        link.href = '/images/logoDark.png';
-    } else {
-        link.href = '/images/logoLight.png';
-    }
-    document.getElementsByTagName('head')[0].appendChild(link);
+function applyIcon(type) {
+  let link =
+    document.querySelector("link[rel*='icon']") ||
+    document.createElement("link");
+  link.type = "image/x-icon";
+  link.rel = "shortcut icon";
+  if (type === "dark") {
+    link.href = "/images/logoDark.png";
+  } else {
+    link.href = "/images/logoLight.png";
+  }
+  document.getElementsByTagName("head")[0].appendChild(link);
 }
-var dmQuery = window.matchMedia("(prefers-color-scheme: dark)");
-var lmQuery = window.matchMedia("(prefers-color-scheme: light)");
+let dmQuery = window.matchMedia("(prefers-color-scheme: dark)");
+let lmQuery = window.matchMedia("(prefers-color-scheme: light)");
 if (dmQuery.matches) {
-    applyIcon("dark");
+  applyIcon("dark");
 }
-dmQuery.addListener(function(){
-    applyIcon("dark")
+dmQuery.addListener(function () {
+  applyIcon("dark");
 });
-lmQuery.addListener(function(){
-    applyIcon("light");
+lmQuery.addListener(function () {
+  applyIcon("light");
 });

@@ -1,17 +1,23 @@
-import React from 'react';
-import { Row, Col } from 'react-flexbox-grid';
+import React from "react";
+import { Row, Col } from "react-flexbox-grid";
 import { MainContainer, MainTitle } from "../../styles.js";
-import { TButton, TButtan } from "../../components/buttons.js"
+import { TButton, TButtan } from "../../components/buttons.js";
 import { Helmet } from "react-helmet";
 import {
   BlurBox,
   BlurContainer,
   MainBio,
   ButtonsDialpad,
-  LeftRow
+  LeftRow,
 } from "./styles";
 
-const buttons = [{ label: 'About', url: '/about' }, { label: 'Discord', url: 'https://discord.gg/Amv9hj', external: true }, { label: 'Github', url: 'https://www.github.com/topik0', external: true }, { label: 'Email', url: 'mailto:topik@topik.tech', external: true }, { label: 'Dev.to', url: 'https://dev.to/topik0', external: true }];
+const buttons = [
+  { label: "About", url: "/about" },
+  { label: "Discord", url: "https://discord.gg/aKEkCw", external: true },
+  { label: "Github", url: "https://www.github.com/topik0", external: true },
+  { label: "Email", url: "mailto:topik@topik.tech", external: true },
+  { label: "Dev.to", url: "https://dev.to/topik0", external: true },
+];
 const Home = () => (
   <MainContainer>
     <Helmet>
@@ -26,17 +32,22 @@ const Home = () => (
             </Col>
             <Col center="lg" middle="xs">
               <MainBio>
-                I'm a front-end web developer from Chicago with a strong
-                passion for technology and code.  I have serveral years of experience with making websites for projects and clients.
-                </MainBio>
+                I'm a front-end web developer from Chicago with a strong passion
+                for technology and code. I have serveral years of experience
+                with making websites for projects and clients.
+              </MainBio>
             </Col>
           </Col>
           <Col middle="lg" center="lg" lg={6}>
             <ButtonsDialpad>
               <Row center="xs" middle="xs">
-                {buttons.map(btn => (
+                {buttons.map((btn) => (
                   <Col lg={6} xs={6} key={btn}>
-                    {btn.external ? <TButtan href={btn.url}>{btn.label}</TButtan> : <TButton to={btn.url}>{btn.label}</TButton>}
+                    {btn.external ? (
+                      <TButtan href={btn.url}>{btn.label}</TButtan>
+                    ) : (
+                      <TButton to={btn.url}>{btn.label}</TButton>
+                    )}
                   </Col>
                 ))}
               </Row>
@@ -46,6 +57,6 @@ const Home = () => (
       </BlurContainer>
     </BlurBox>
   </MainContainer>
-)
+);
 
-export default Home
+export default Home;

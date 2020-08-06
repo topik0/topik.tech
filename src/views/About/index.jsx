@@ -1,6 +1,5 @@
 import React from "react";
 import { MainTitle } from "../../styles.js";
-import projectImage from "../../black.jpg";
 import amiImage from "../../ami.jpg"
 import githubImage from "../../github.png"
 import appaysImage from "../../appays.jpg"
@@ -24,7 +23,7 @@ const mainBio = "I am an experienced web developer from Chicago with a strong pa
 const skillsbio = "I'm experienced with webdev languages and frameworks such as HTML/CSS, React, and JS, UNIX based systems, and Java.  I'm always working to improve my current skills and as of now I am practicing C++.";
 const amiBio = "Ami was a Discord bot written in Java that had robust features that were unique to it, such as full server backups and large music support.  Unfortunately, this project ended in June 2019 and the source was lost.";
 const templatesBio = "I post the source code to many sites I make, as long as standalone templates that you are free to use.  The templates are built with quality code & design and are designed to work well on any device.";
-const appaysBio = "Appays is an uncoming website and service that will allow you to learn the world.  Every two weeks a country is chosen to learn about.  Appays will have many resources to make learning the world fun and simple.";
+const appaysBio = "Appays is an upcoming website and service that will allow you to learn the world.  Every two weeks a country is chosen to learn about.  Appays will have many resources to make learning the world fun and simple.";
 const About = () => (
   <MainContainerAbout>
     <ProjectContainer>
