@@ -1,6 +1,5 @@
 import React from "react";
 import { MainTitle } from "../../styles.js";
-import projectImage from "../../black.jpg";
 import amiImage from "../../ami.jpg"
 import githubImage from "../../github.png"
 import appaysImage from "../../appays.jpg"
